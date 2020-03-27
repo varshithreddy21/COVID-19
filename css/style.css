@@ -1,0 +1,148 @@
+.navbar{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.3em;
+    background-color:transparent;
+    width: 100%;
+    
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.container1{
+   position:fixed;
+    z-index: 100;
+    width: 100%;
+    background-color:transparent;
+    margin-left: 0;
+    margin-right: 0%;
+    
+}
+
+.navbar-nav{
+   
+}
+.team{
+    margin-top: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+.header{
+   margin-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+   padding: 25px;
+   display: block;
+}
+.header h1{
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact{
+    text-align: center;
+
+}
+.header p{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.header ul{
+   margin:0 auto;
+}
+.header .event li{
+    margin-top: 30px;
+    color: grey;
+}
+#carouselExampleFade{
+width: 100%;
+height: 750px;
+position: relative;
+
+}
+
+#carouselExampleFade img{
+    width: 100%;
+    height: 750px;
+    }
+    
+body{
+   
+}
+.form-check-label,legend{
+    text-align: center;
+    margin: 10px;
+    font: 1em sans-serif;
+}
+.navbar-brand{
+    color: rgb(201, 223, 243);
+    font-size: 1.3em;
+}
+ button,.btn btn-primary{
+    color: rgb(202, 216, 230);
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    
+        color: rgb(201, 223, 243);
+  
+}
+.navbar-brand:hover{
+    color:white;
+}
+.navbar-dark .navbar-nav .nav-link
+{
+    
+       color: white;
+  
+}
+@media(min-width:360px) and (max-width:570px){
+    #carouselExampleFade img {
+        width: 100%;
+        height: 450px;
+    }
+    #carouselExampleFade {
+        width: 100%;
+        height: 450px;
+        position: relative;
+    }
+    .navbar-inner{
+        margin: -20px 0;
+    }
+    .col-md-3{
+        text-align: center;
+    }
+    .header {
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 15px;
+        display: block;
+    }
+    .parallax-window{
+        margin-top: 50px;
+        object-fit: cover;
+    }
+    .tablediv{
+        margin: 0;
+    }
+    .navbar-brand{
+        font-size: 1.1em;
+    }
+    .table{
+        width: 100%;
+    }
+    .event{
+        margin-bottom: 50px;
+    }
+    .col-md-4{
+        margin-bottom: 25px;
+    }
+}
+@media(min-width:768px){
+    
+}
+@media(min-width:992px){}
+@media(min-width:1200px){}
